@@ -117,3 +117,17 @@ body {
     display: none;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 9vh;
+    width: 100vw;
+    text-align: right;
+}
+
+.footer > a > img {
+    height: 40px;
+    filter: invert();
+    margin: 15px;
+}
