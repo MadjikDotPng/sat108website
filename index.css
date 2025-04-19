@@ -101,6 +101,7 @@ body {
     width: 3em;
     height: 3em;
     margin: 0.1em;
+    filter: invert();
 }
 
 .socials {
@@ -130,4 +131,26 @@ body {
     height: 40px;
     filter: invert();
     margin: 15px;
+}
+
+.header-card {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(215, 34, 221, 0.171);
+    color: white;
+    font-family: "Bebas Neue";
+    padding-left: 20px;
+}
+
+.header-card > a {
+    font-kerning: 50;
+    text-decoration: none;
+    color:white !important;
+}
+
+.header-card:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
