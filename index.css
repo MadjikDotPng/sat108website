@@ -84,7 +84,7 @@ body {
     position: relative;
     margin: 0 auto;
     top: 16%;
-    border-radius: 25px;
+    
 }
 
 .video {
@@ -135,22 +135,46 @@ body {
 
 .header-card {
     position: fixed; 
-    bottom: 0;
+    bottom: 40;
     left: 0;
     right: 0;
     background: rgba(215, 34, 221, 0.171);
     color: white;
     font-family: "Bebas Neue";
-    padding-left: 20px;
 }
 
 .header-card > a {
     font-kerning: 50;
     text-decoration: none;
     color:white !important;
+    font-size: 30px;
 }
 
 .header-card:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header-card2 {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(53, 21, 54, 0.851);
+    color: white;
+    font-family: "Bebas Neue";
+    padding-left: 20px;
+    display: flex;
+}
+
+.header-card2 > a {
+    font-kerning: 15;
+    text-decoration: none;
+    color:white !important;
+    font-size: 8px;
+}
+
+.header-card2 > a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
